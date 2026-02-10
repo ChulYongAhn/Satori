@@ -1,0 +1,9 @@
+stable-baselines3
+gymnasium
+torch
+numpy
+pandas
+matplotlib
+requests
+websocket-client
+python-dotenv

@@ -144,6 +144,42 @@ ENV/
 env.bak/
 venv.bak/
 
+# API Keys and Credentials
+credentials.json
+service-account-key.json
+*.pem
+*.key
+*.cert
+
+# Stock Data (if you don't want to commit large data files)
+StockHistory/
+data/*.csv
+
+# Model checkpoints and outputs
+models/
+checkpoints/
+*.pt
+*.pth
+*.h5
+*.pkl
+*.joblib
+
+# Logs
+logs/
+*.log
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+.DS_Store
+
 # Spyder project settings
 .spyderproject
 .spyproject
